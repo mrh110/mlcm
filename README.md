@@ -1,9 +1,12 @@
 # MLCM creates a 2D Multi-Label Confusion Matrix
 Please read the following paper for more information:\
-M. Heydarian, T. Doyle, and R. Samavi, MLCM: Multi-Label Confusion Matrix, IEEE Access, 2022
+M. Heydarian, T. Doyle, and R. Samavi, MLCM: Multi-Label Confusion Matrix,\ 
+IEEE Access, Feb. 2022, DOI: 10.1109/ACCESS.2022.3151048\
+Please check biomedic.ai lab for other projects.
 
 Please cite the paper if you are using the MLCM.\
-This work is licensed under a Creative Commons Attribution 4.0 License. For more information, see https://creativecommons.org/licenses/by/4.0/
+This work is licensed under a Creative Commons Attribution 4.0 License. For more information,\ 
+see https://creativecommons.org/licenses/by/4.0/
 
 # An example on how to use MLCM package:
 % Importing libraries
