@@ -6,8 +6,9 @@ Please cite the paper if you are using the MLCM.\
 This work is licensed under a Creative Commons Attribution 4.0 License. For more information, see https://creativecommons.org/licenses/by/4.0/
 
 # An example on how to use MLCM package:
->> from mlcm import mlcm
->> import numpy as np\
+% Importing libraries
+>> from mlcm import mlcm\
+>> import numpy as np
 
 % Creating random input (multi-label data)
 >> number_of_samples = 1000\
@@ -15,6 +16,7 @@ This work is licensed under a Creative Commons Attribution 4.0 License. For more
 >> label_true = np.random.randint(2, size=(number_of_samples, number_of_classes))\
 >> label_pred = np.random.randint(2, size=(number_of_samples, number_of_classes))
 
+% Calling mlcm and illustrating the results
 >> conf_mat,normal_conf_mat = mlcm.cm(label_true,label_pred)\
 >> print('\nRaw confusion Matrix:')\
 >> print(conf_mat)\
