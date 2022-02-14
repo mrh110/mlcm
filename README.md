@@ -1,6 +1,6 @@
 # MLCM creates a 2D Multi-Label Confusion Matrix
 Please read the following paper for more information:\
-M. Heydarian, T. Doyle, and R. Samavi, MLCM: Multi-Label Confusion Matrix, 
+M. Heydarian, T. Doyle, and R. Samavi, MLCM: Multi-Label Confusion Matrix,\
 IEEE Access, Feb. 2022, DOI: 10.1109/ACCESS.2022.3151048\
 For other projects please see https://biomedic.ai/
 
