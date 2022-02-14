@@ -1,16 +1,18 @@
 '''
     Please read the following paper for more information:\
-    Heydarian et al., MLCM: Multi-Label Confusion Matrix, IEEE Access, 2022
+    M. Heydarian, T. Doyle, and R. Samavi, MLCM: Multi-Label Confusion Matrix, 
+    IEEE Access, Feb. 2022, DOI: 10.1109/ACCESS.2022.3151048
 '''
 
 import numpy as np
 
 def cm(label_true,label_pred,print_note=True):
     '''
-    Computes a "Multi-Lable Confusion Matrix" (MLCM). 
+    Computes the "Multi-Lable Confusion Matrix" (MLCM). 
     MLCM satisfies the requirements of a 2-dimensional confusion matrix.
-    For more information read the following paper:\n
-    M. Heydarian et al., MLCM: Multi-Label Confusion Matrix, IEEE Access, 2022.
+    Please read the following paper for more information:\
+    M. Heydarian, T. Doyle, and R. Samavi, MLCM: Multi-Label Confusion Matrix,
+    IEEE Access, Feb. 2022, DOI: 10.1109/ACCESS.2022.3151048
     
     Parameters
     ----------
@@ -36,8 +38,7 @@ def cm(label_true,label_pred,print_note=True):
         
     Notes
     -----
-    Implemented by Mohammadreza Heydarian, at BioMedic.AI lab \
-    (McMaster University).
+    Implemented by Mohammadreza Heydarian, at BioMedic.AI (McMaster University)
     Aug 13, 2020; Modified: Feb 8, 2022.
     '''
 
@@ -138,7 +139,7 @@ def stats(conf_mat, print_binary_mat=True):
     The One-vs-rest is a 2x2 matrix contains [TN,FP; FN,TP]
     Prints precision, recall, and f1-score for each class.
     Prints micro, macro, and weighted average of precision, recall, and
-    f1-score over all classes.
+    F1-score over all classes.
     
     Parameters
     ----------
@@ -159,8 +160,8 @@ def stats(conf_mat, print_binary_mat=True):
     
     prints
     ------
-    precision, recall, f1-score, and weight for each of classes, also micro, 
-    macro, and weighted average of precision, recall, and f1-score
+    precision, recall, F1-score, and weight for each of classes, also micro, 
+    macro, and weighted average of precision, recall, and F1-score
     over all classes.
 
     Notes
