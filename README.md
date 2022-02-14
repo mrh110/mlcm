@@ -1,4 +1,6 @@
 # The MLCM Algorithm creates a 2D Multi-Label Confusion Matrix
+Install mlcm (https://pypi.org/project/mlcm/):
+pip install mlcm
 Install mlcm (https://pypi.org/project/mlcm/):\
 pip install mlcm 
 
