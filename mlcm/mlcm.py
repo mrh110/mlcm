@@ -77,8 +77,8 @@ def cm(label_true,label_pred,print_note=True):
                     if label_true[i][j] == 1: 
                         conf_mat[j][num_classes] += 1  # NPL               
             else: 
-                true_checked = np.zeros((num_classes,1), dtype=np.int) 
-                pred_checked = np.zeros((num_classes,1), dtype=np.int) 
+                true_checked = np.zeros((num_classes,1), dtype=int) 
+                pred_checked = np.zeros((num_classes,1), dtype=int) 
                 # Check for correct prediction
                 for j in range(num_classes): 
                     if label_true[i][j] == 1: 
